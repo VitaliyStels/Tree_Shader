@@ -10,8 +10,8 @@ export const Trees = forwardRef((props, ref) => {
 		return {
 			colorMap: {
 				value: [
-					new Color('#437062').convertLinearToSRGB(),
-					new Color('#33594e').convertLinearToSRGB(),
+					new Color('#4f7062').convertLinearToSRGB(),
+					new Color('#fff94e').convertLinearToSRGB(),
 					new Color('#234549').convertLinearToSRGB(),
 					new Color('#1e363f').convertLinearToSRGB(),
 				],

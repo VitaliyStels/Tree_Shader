@@ -1,21 +1,21 @@
 import { Color, Vector3 } from "three";
 
 export const GhibliShader = {
-  uniforms: {
-    colorMap: {
-      value: [
-        new Color("#427062"),
-        new Color("#33594E"),
-        new Color("#234549"),
-        new Color("#1E363F"),
-      ],
-    },
-    brightnessThresholds: {
-      value: [0.9, 0.45, 0.001],
-    },
-    lightPosition: { value: new Vector3(15, 15, 15) },
-  },
-  vertexShader: /* glsl */ `
+	uniforms: {
+		colorMap: {
+			value: [
+				new Color("#4f7062"),
+				new Color("#33594E"),
+				new Color("#234549"),
+				new Color("#fff63F"),
+			],
+		},
+		brightnessThresholds: {
+			value: [0.9, 0.45, 0.001],
+		},
+		lightPosition: { value: new Vector3(15, 15, 15) },
+	},
+	vertexShader: /* glsl */ `
     // Set the precision for data types used in this shader
     precision highp float;
     precision highp int;
@@ -30,7 +30,7 @@ export const GhibliShader = {
 
       gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
     }`,
-  fragmentShader: /* glsl */ `
+	fragmentShader: /* glsl */ `
     precision highp float;
     precision highp int;
 
