@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tree_shader/static/css/main.69f51ef1.css",
+    "main.js": "/tree_shader/static/js/main.9aba046b.js",
+    "static/js/787.fc55b595.chunk.js": "/tree_shader/static/js/787.fc55b595.chunk.js",
+    "index.html": "/tree_shader/index.html",
+    "main.69f51ef1.css.map": "/tree_shader/static/css/main.69f51ef1.css.map",
+    "main.9aba046b.js.map": "/tree_shader/static/js/main.9aba046b.js.map",
+    "787.fc55b595.chunk.js.map": "/tree_shader/static/js/787.fc55b595.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69f51ef1.css",
+    "static/js/main.9aba046b.js"
+  ]
+}
