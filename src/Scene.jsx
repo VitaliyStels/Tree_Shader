@@ -25,12 +25,7 @@ export function Scene() {
 
 			<Trees
 				ref={refTrees}
-				position={[0, 0, -2]}
-			/>
-
-			<Trees
-				ref={refTrees}
-				position={[0, 0, 4]}
+				position={[0, 0, 0]}
 			/>
 
 			{/* <Trees ref={refTrees} posiiton={[0, 0, 4]} /> */}
